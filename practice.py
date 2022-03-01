@@ -52,7 +52,7 @@ print(f'A week before your birthday was: {one_week_before_birthday}');  """
 
 
 
-""" ######## try except finally
+""" ######## Error Handling try except finally
 x = 42
 y = 0
 
@@ -65,3 +65,13 @@ else:
 finally:
   print("cleanup code")    
 print("application still running")   """
+
+########### conditional Logic
+
+""" price = 0.5;
+if price > 1:
+  print("Taxed")
+else:
+  print("Not Taxed") """
+  
+    
