@@ -123,13 +123,19 @@ print(name2) """
 
 ##### For/While Loop
 
-
+""" 
 name = ["Mohammad", "Yakub"]
 
 for person in name:
-  print(person)
+  print(person) """
 
-index = 0
+# 0 is starting number, and second parameter is number of items 
+""" for index in range(0,2):
+  print(index)   """
+
+""" index = 0
 while index < len(name):
   print(name[index])
-  index = index + 1
+  index = index + 1 """
+
+#Start with Functions Lecture 29
