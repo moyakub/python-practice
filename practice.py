@@ -74,4 +74,26 @@ if price > 1:
 else:
   print("Not Taxed") """
   
-    
+
+### multiple conditions  
+""" 
+country = input("Whats your country? ")
+tax_rate = 0
+
+#if country == "ca" or country == 'gbp':
+if country in("ca","gbp","usa"):
+  tax_rate = .07
+elif country == "bd":
+  tax_rate = .05  
+else: 
+  tax_rate = .15  
+
+
+
+
+tax_rate_percentage = tax_rate * 100
+
+format_tax_rate_percentage = "{:.2f}".format(tax_rate_percentage)
+
+
+print(f'Please pay {format_tax_rate_percentage}% Tax') """
