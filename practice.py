@@ -96,4 +96,4 @@ tax_rate_percentage = tax_rate * 100
 format_tax_rate_percentage = "{:.2f}".format(tax_rate_percentage)
 
 
-print(f'Please pay {format_tax_rate_percentage}% Tax') """
+print(f'Please pay {format_tax_rate_percentage}% Tax') """ 
