@@ -97,3 +97,39 @@ format_tax_rate_percentage = "{:.2f}".format(tax_rate_percentage)
 
 
 print(f'Please pay {format_tax_rate_percentage}% Tax') """ 
+
+
+######### collection - items
+
+
+""" 
+
+names = ["Mohammad", "Ayyash"]
+print(names[0]) """
+
+########## Dictionaries
+""" 
+
+name1 = {}
+name1["first"] = "Mohammad"
+name1["last"] = "Yakub"
+
+name2 = {}
+name2["first"] = "Mohammad"
+name2["last"] = "Yakub"
+
+print(name1) 
+print(name2) """
+
+##### For/While Loop
+
+
+name = ["Mohammad", "Yakub"]
+
+for person in name:
+  print(person)
+
+index = 0
+while index < len(name):
+  print(name[index])
+  index = index + 1
