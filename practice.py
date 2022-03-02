@@ -150,19 +150,27 @@ print_time()
  """
 
 
-##### Functions to return inital 
-""" from string import capwords
+""" ##### Functions to return first and last name inital 
+from string import capwords
  
-def name_initial(nameOrder,upperCase=True):
-  nameOrder = capwords(nameOrder)
-  name = input(f'Whats your {nameOrder} name? ')
-  return name[0:1].upper()
+def name_initial(force_upperCase=True):
+
+  first_name = input("Whats your First name? ")
+  last_name = input("Whats your Last name? ")
+
+  if force_upperCase:
+    first_name_initial = first_name[0:1].upper()
+    last_name_initial = last_name[0:1].upper()
+  else: 
+    first_name_initial = first_name[0:1].lower()
+    last_name_initial = last_name[0:1].lower()
+  name_initial =  first_name_initial + last_name_initial  
+
+  return name_initial
    
 
-first_name_initial = name_initial("first")  
-last_name_initial = name_initial("last") 
-
-print(f'Your initial is {first_name_initial}{last_name_initial}') """
+name_initial = name_initial(False)
+print(f'Your initial is {name_initial}') """
 
 
 
