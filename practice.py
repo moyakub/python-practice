@@ -138,4 +138,37 @@ while index < len(name):
   print(name[index])
   index = index + 1 """
 
-#Start with Functions Lecture 29
+#Funtions
+
+""" 
+from datetime import datetime
+
+
+def print_time():
+  print(datetime.now())
+print_time()
+ """
+
+
+##### Functions to return inital 
+""" from string import capwords
+ 
+def name_initial(nameOrder,upperCase=True):
+  nameOrder = capwords(nameOrder)
+  name = input(f'Whats your {nameOrder} name? ')
+  return name[0:1].upper()
+   
+
+first_name_initial = name_initial("first")  
+last_name_initial = name_initial("last") 
+
+print(f'Your initial is {first_name_initial}{last_name_initial}') """
+
+
+
+
+
+
+
+
+
