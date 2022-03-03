@@ -173,6 +173,18 @@ name_initial = name_initial(False)
 print(f'Your initial is {name_initial}') """
 
 
+# Modules and packages
+
+from math import add
+
+total = add(12,12)
+print(f'Total is {total}')
+
+
+
+
+
+
 
 
 
