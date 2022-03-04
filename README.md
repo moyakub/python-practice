@@ -1,5 +1,8 @@
 # python-practice
 
+
+## Print Covid Cases on console/terminal ##
+
 1. Downlaod the folder
 2. To get current covid cases in console/terminal (I used mac)
     1. Run `python3 -m venv <virtual env folder name>`
@@ -9,6 +12,11 @@
     5. Run `python3 covid-stats.py`
     6. You should get current covid stats.  
         1. To get covid cases next time, You do not need to follow all above steps again. Simply, follow #2 and #5. If you already have virtual environment activated, then only follow #5
+
+
+## Packages used ##    
+
+1. [covid-stats 0.0.1](https://pypi.org/project/covid-stats/ "covid-stats 0.0.1 package")
 
   
           
