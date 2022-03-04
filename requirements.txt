@@ -1,0 +1,8 @@
+#all these modules need to be intalled for covid-stats package to work
+#run "pip install -r requirements" to install all these 3 in single run
+covid-stats
+beautifulsoup4
+requests
+
+
+## end of covid-stats package required modules
