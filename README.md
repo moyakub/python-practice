@@ -7,7 +7,8 @@
     3. You should see (venv) in the termial which proves that virtual env is activated successfully.
     4. Run `pip install -r requirements.txt` 
     5. Run `python3 covid-stats.py`
-    6. You should get current covid stats.
+    6. You should get current covid stats.  
+        1. To get covid cases next time, You do not need to follow all above steps again. Simply, follow #2 and #5. If you already have virtual environment activated, then only follow #5
 
   
           
