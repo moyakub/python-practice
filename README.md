@@ -21,9 +21,9 @@
 
 ### Packages used ###    
 
-1. covid-stats (To get covid stats)
-2. colorama (To print text with colors in terminal)
-3. requests (To call apis)
+1. covid-stats (to get covid stats)
+2. colorama (to print text with colors in terminal)
+3. requests (to call apis)
 4. load_dotenv (to access variables from environment file)
 
   
