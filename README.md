@@ -17,7 +17,7 @@
 
 ## Print Covid Cases on console/terminal ##
 
-1. Run `python3 covid-stats.py` while virutal environment is activated
+1. Run `python3 covid-stats.py`
 
 ### Packages used ###    
 
