@@ -2,12 +2,13 @@ from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
-
+import requests
 from array import array
 import os
 from PIL import Image
 import sys
 import time
+import json
 
 
 
@@ -38,10 +39,14 @@ OCR: Read File using the Read API, extract text - remote
 This example will extract text in an image, then print results, line by line.
 This API call can also extract handwriting style text (not shown).
 '''
-print("===== Read File - remote =====")
+
 # Get an image with text
 
-# Call API with URL and raw response (allows you to get the operation location)
+
+###### Grab Text from Image Start ##########
+
+
+""" # Call API with URL and raw response (allows you to get the operation location)
 read_response = computervision_client.read(read_image_url,  raw=True)
 
 # Get the operation location (URL with an ID at the end) from the response
@@ -64,4 +69,24 @@ if read_result.status == OperationStatusCodes.succeeded:
             formated_text = formated_text + line.text
             #print(line.text)
             
-print(formated_text)
+print(formated_text) """
+
+
+###### Grab Text from Image End ##########
+
+
+###### Analyze image Start ##########
+
+
+url = "https://mocomputervision.cognitiveservices.azure.com/vision/v3.2/analyze?visualFeatures=Color"
+headers = {"Content-Type": "application/json", "Ocp-Apim-Subscription-Key": subscription_key}
+payload = {"url" : "https://user-images.githubusercontent.com/100542383/156890156-bf471f28-95b2-4e54-bfba-680972c750bc.jpg"}
+json_formated_payload = json.dumps(payload)
+
+r = requests.post(url, data = json_formated_payload, headers=headers)
+print(r.text)
+
+
+###### Analyze image End ##########
+
+
