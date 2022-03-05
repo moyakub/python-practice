@@ -176,13 +176,19 @@ print(f'Your initial is {name_initial}') """
 ## module is nothing but just a file with some functions that we can import in a different namespace (file)
 # Modules and packages
 
+
 from calculation import add
 
-total = add(12,12)
+total = add(11,12)
 print(f'Total is {total}')
 
 
-#start with 34. try to install covid-stats package https://pypi.org/project/covid-stats/#description 
+## use colorama package
+
+from printmessage import print_message
+print_message(True,"There has been a critical error on the system")
+
+print("----END------")
 
 
 

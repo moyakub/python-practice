@@ -1,20 +1,25 @@
 # python-practice
 
 
+## Initial Installation ##
+
+1. Make sure you have python3 and pip installed on your machine. 
+  1. python3 --version
+  2. pip --version
+2. Downlaod the folder   
+3. Run `python3 -m venv <virtual env folder name>`
+4. Run `source <virtual env folder name>/bin/activate` 
+5. You should see (venv) in the termial which proves that virtual env is activated successfully.
+6. Run `pip install -r requirements.txt` 
+
+
+
+
 ## Print Covid Cases on console/terminal ##
 
-1. Downlaod the folder
-2. To get current covid cases in console/terminal (I used mac)
-    1. Run `python3 -m venv <virtual env folder name>`
-    2. Run `source <virtual env folder name>/bin/activate` 
-    3. You should see (venv) in the termial which proves that virtual env is activated successfully.
-    4. Run `pip install -r requirements.txt` 
-    5. Run `python3 covid-stats.py`
-    6. You should get current covid stats.  
-        1. To get covid cases next time, You do not need to follow all above steps again. Simply, follow #2 and #5. If you already have virtual environment activated, then only follow #5
+1. Run `python3 covid-stats.py` while virutal environment is activated
 
-
-## Packages used ##    
+### Packages used ###    
 
 1. [covid-stats 0.0.1](https://pypi.org/project/covid-stats/ "covid-stats 0.0.1 package")
 

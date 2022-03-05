@@ -3,6 +3,7 @@
 covid-stats
 beautifulsoup4
 requests
+colorama
 
 
 ## end of covid-stats package required modules
