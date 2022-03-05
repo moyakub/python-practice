@@ -15,11 +15,16 @@
 
 
 
-## Print Covid Cases on console/terminal ##
+### Print Covid Cases on console/terminal ###
 
 1. Run `python3 covid-stats.py`
 
-### Packages used ###    
+### Print Covid Cases on console/terminal ###
+
+1. Change value for `read_image_url` inside azure-cognitive-service.py 
+2. Run `azure-cognitive-service.py`
+
+#### Packages used ####    
 
 1. covid-stats (to get covid stats)
 2. colorama (to print text with colors in terminal)
