@@ -4,6 +4,7 @@ covid-stats
 beautifulsoup4
 requests
 colorama
+python-dotenv
 
 
 ## end of covid-stats package required modules

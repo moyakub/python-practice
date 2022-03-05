@@ -23,6 +23,7 @@
 
 1. [covid-stats 0.0.1](https://pypi.org/project/covid-stats/ "covid-stats 0.0.1 package")
 2. [colorama 0.4.4](https://pypi.org/project/colorama/ "colorama 0.4.4 package")
+3. [requests 2.27.1](https://pypi.org/project/requests/ "requests 2.27.1 package")
 
   
           
