@@ -19,7 +19,7 @@
 
 1. Run `python3 covid-stats.py`
 
-### Print Covid Cases on console/terminal ###
+### Extract text from a web image ###
 
 1. Change value for `read_image_url` inside azure-cognitive-service.py 
 2. Run `azure-cognitive-service.py`
