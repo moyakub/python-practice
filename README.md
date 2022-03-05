@@ -4,8 +4,8 @@
 ## Initial Installation ##
 
 1. Make sure you have python3 and pip installed on your machine. 
-  1. python3 --version
-  2. pip --version
+    1. python3 --version
+    2. pip --version
 2. Downlaod the folder   
 3. Run `python3 -m venv <virtual env folder name>`
 4. Run `source <virtual env folder name>/bin/activate` 
