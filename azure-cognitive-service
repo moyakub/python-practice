@@ -83,8 +83,15 @@ headers = {"Content-Type": "application/json", "Ocp-Apim-Subscription-Key": subs
 payload = {"url" : "https://user-images.githubusercontent.com/100542383/156890156-bf471f28-95b2-4e54-bfba-680972c750bc.jpg"}
 json_formated_payload = json.dumps(payload)
 
+
 r = requests.post(url, data = json_formated_payload, headers=headers)
-print(r.text)
+#print(r.text)
+
+response_data = r.json()
+
+print(response_data["color"]["dominantColors"])
+
+
 
 
 ###### Analyze image End ##########

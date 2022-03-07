@@ -191,6 +191,13 @@ print_message(True,"There has been a critical error on the system")
 print("----END------")
 
 
+#### my personal practice ####
+
+
+""" cities = ["winnipeg", "vancouver", "saskatoon"]
+print(cities[0]) """
+
+
 
 
 
