@@ -177,7 +177,7 @@ print(f'Your initial is {name_initial}') """
 # Modules and packages
 
 
-from calculation import add
+""" from calculation import add
 
 total = add(11,12)
 print(f'Total is {total}')
@@ -188,7 +188,7 @@ print(f'Total is {total}')
 from printmessage import print_message
 print_message(True,"There has been a critical error on the system")
 
-print("----END------")
+print("----END------") """
 
 
 #### my personal practice ####
@@ -196,6 +196,36 @@ print("----END------")
 
 """ cities = ["winnipeg", "vancouver", "saskatoon"]
 print(cities[0]) """
+""" 
+def cityRank(city):
+  city_rank = {
+    "winnipeg" : 100,
+    "vancouver" : 1
+  }
+  return city_rank.get(city,-1)
+
+user_city = input("Whats your city name?")
+city_rank = cityRank(user_city)  
+print(city_rank) """
+
+
+## OOP 
+
+class Person: 
+  school = ""
+  def __init__(self,name,age,school):
+    self.name = name
+    self.age = age
+    self.school = school
+
+Mohammad = Person("Mohammad", 33, "KHS")
+print(f'{Mohammad.name} is {Mohammad.age} years bold and he is from {Mohammad.school} School ')
+
+
+
+
+
+
 
 
 
